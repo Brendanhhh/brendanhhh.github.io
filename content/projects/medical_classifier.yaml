@@ -1,0 +1,15 @@
+# content/projects/medical_classifier.yaml
+title: Medical Image Classification with PyTorch
+short_summary: A deep learning project focused on automating the classification of medical images to assist in diagnostic workflows.
+tech_stack:
+  - Python
+  - PyTorch
+  - Computer Vision
+image_path: img/placeholder_project_1.png # Replace with your image in static/img/
+problem_statement: |
+  Manual review of medical imagery is time-consuming and prone to human error. This project sought to determine if deep learning could effectively categorize medical conditions from raw image data.
+approach: |
+  I built and trained a convolutional neural network (CNN) using the PyTorch framework. The process involved extensive data preprocessing, augmentation, and hyperparameter tuning to ensure the model could generalize well across different image sets.
+results_impact: |
+  The project demonstrated a functional pipeline for medical image categorization, serving as a core piece of my portfolio for data analyst roles.
+repo_url: https://github.com/Brendanhhh/medical-image-classification-pytorch

@@ -1,0 +1,16 @@
+# content/projects/riot_pipeline.yaml
+title: Cloud-Based Riot Games Data Pipeline
+short_summary: A scalable ETL pipeline hosted on AWS that automates the collection and storage of gaming match data.
+tech_stack:
+  - Python
+  - AWS EC2
+  - MongoDB
+  - REST APIs
+image_path: img/placeholder_project_2.png # Replace with your image in static/img/
+problem_statement: |
+  Gathering large-scale match data for analysis requires a system that can run 24/7 and handle unstructured data without manual intervention.
+approach: |
+  I designed a Python-based ETL process deployed on an AWS EC2 instance. The system polls the Riot Games API, cleans the incoming JSON data, and stores it in a MongoDB database for later analysis.
+results_impact: |
+  This project successfully automated data ingestion for thousands of matches, providing a reliable dataset for longitudinal gaming trends and player behavior analysis.
+repo_url: https://github.com/Brendanhhh/riftoracle
