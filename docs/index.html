@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brendan Hunt | Data Science Portfolio</title>
+
+  <!-- Base styles always loaded -->
+  <link rel="stylesheet" href="css/base.css" />
+
+  <!-- Theme stylesheet — controlled by `theme` in portfolio_config.yaml -->
+  <link rel="stylesheet" href="css/themes/msu-dark.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-name">Brendan Hunt</div>
+      <div class="header-tagline">Data Scientist | Technical Incident Response at Jackson National Life</div>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main content (filled in by child templates) ===== -->
+  <main class="site-main">
+    
+
+<!-- ===== About section ===== -->
+<section id="about" class="section about-section">
+  <h2>About Me</h2>
+  <div class="about-text"><p>I am a Data Science and Arabic student at Michigan State University, graduating in May 2026. My academic background allows me to bridge technical data analysis with global perspectives.</p>
+<p>Currently, I work as a Strategic Support Associate on the <strong>Technical Incident Response Team (TIRT)</strong> at Jackson National Life, where I handle real-time technical challenges and data-driven problem solving. I am passionate about building efficient data pipelines, exploring deep learning, and developing scalable cloud solutions.</p></div>
+</section>
+
+<!-- ===== Projects section ===== -->
+<section id="projects" class="section projects-section">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/placeholder_project_1.png"
+          alt="Thumbnail for Medical Image Classification with PyTorch"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Medical Image Classification with PyTorch</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">A deep learning project focused on automating the classification of medical images to assist in diagnostic workflows.</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">PyTorch</span>
+          
+          <span class="tech-badge">Computer Vision</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Manual review of medical imagery is time-consuming and prone to human error. This project sought to determine if deep learning could effectively categorize medical conditions from raw image data.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I built and trained a convolutional neural network (CNN) using the PyTorch framework. The process involved extensive data preprocessing, augmentation, and hyperparameter tuning to ensure the model could generalize well across different image sets.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The project demonstrated a functional pipeline for medical image categorization, serving as a core piece of my portfolio for data analyst roles.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/Brendanhhh/medical-image-classification-pytorch" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/placeholder_project_2.png"
+          alt="Thumbnail for Cloud-Based Riot Games Data Pipeline"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Cloud-Based Riot Games Data Pipeline</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">A scalable ETL pipeline hosted on AWS that automates the collection and storage of gaming match data.</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">AWS EC2</span>
+          
+          <span class="tech-badge">MongoDB</span>
+          
+          <span class="tech-badge">REST APIs</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Gathering large-scale match data for analysis requires a system that can run 24/7 and handle unstructured data without manual intervention.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I designed a Python-based ETL process deployed on an AWS EC2 instance. The system polls the Riot Games API, cleans the incoming JSON data, and stores it in a MongoDB database for later analysis.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>This project successfully automated data ingestion for thousands of matches, providing a reliable dataset for longitudinal gaming trends and player behavior analysis.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/Brendanhhh/riftoracle" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+        </div>
+      </div>
+
+    </article>
+    
+  </div>
+</section>
+
+<!-- ===== Contact section ===== -->
+<section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+  <ul class="contact-list">
+    
+    <li>
+      <span class="contact-label">Email:</span>
+      <a href="mailto:brendanhunt1203@gmail.com">brendanhunt1203@gmail.com</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">LinkedIn:</span>
+      <a href="https://www.linkedin.com/in/brendan-hunt-2b915828b/" target="_blank" rel="noopener">https://www.linkedin.com/in/brendan-hunt-2b915828b/</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">GitHub:</span>
+      <a href="https://github.com/Brendanhhh/" target="_blank" rel="noopener">https://github.com/Brendanhhh/</a>
+    </li>
+    
+  </ul>
+</section>
+
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>Built with the Data Science Portfolio Template &mdash; powered by Python &amp; Jinja2.</p>
+  </footer>
+
+</body>
+</html>
