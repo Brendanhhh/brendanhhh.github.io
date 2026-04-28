@@ -1,0 +1,16 @@
+# content/projects/aws_nyc311.yaml
+title: "AWS Cloud Computing: NYC 311 Service Analysis"
+short_summary: "A cloud-native machine learning pipeline using AWS Athena and SageMaker to predict city service resolution speeds."
+tech_stack:
+  - AWS S3
+  - AWS Athena (SQL)
+  - AWS SageMaker
+  - Python (Scikit-Learn)
+image_path: img\confusion_matrix.png 
+problem_statement: |
+  Predicting whether a non-emergency service request will be resolved within a 3-day window to help city stakeholders identify operational bottlenecks.
+approach: |
+  I built a cloud-based data pipeline starting with data ingestion into S3. I used Athena to perform complex SQL aggregations for feature engineering. Finally, I compared local Scikit-Learn models with SageMaker's built-in Linear Learner algorithm to evaluate workflow efficiency and model performance.
+results_impact: |
+  Achieved an 88% baseline accuracy. The project highlighted the challenges of class imbalance in city data and demonstrated a scalable approach to handling large-scale tabular datasets in the cloud.
+repo_url: https://github.com/Brendanhhh/aws-nyc311-181211067
