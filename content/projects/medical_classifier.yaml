@@ -5,7 +5,7 @@ tech_stack:
   - Python
   - PyTorch
   - Computer Vision
-image_path: img/placeholder_project_1.png # Replace with your image in static/img/
+image_path: img/computer_vision.png # Replace with your image in static/img/
 problem_statement: |
   Manual review of medical imagery is time-consuming and prone to human error. This project sought to determine if deep learning could effectively categorize medical conditions from raw image data.
 approach: |

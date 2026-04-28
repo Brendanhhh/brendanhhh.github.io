@@ -6,7 +6,7 @@ tech_stack:
   - AWS EC2
   - MongoDB
   - REST APIs
-image_path: img/placeholder_project_2.png 
+image_path: img/riot_pipe.png
 problem_statement: |
   Gathering large-scale match data for analysis requires a system that can run 24/7 and handle unstructured data without manual intervention.
 approach: |
