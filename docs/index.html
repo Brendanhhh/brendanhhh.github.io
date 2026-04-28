@@ -175,6 +175,72 @@
 
     </article>
     
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img\confusion_matrix.png"
+          alt="Thumbnail for AWS Cloud Computing: NYC 311 Service Analysis"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">AWS Cloud Computing: NYC 311 Service Analysis</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">A cloud-native machine learning pipeline using AWS Athena and SageMaker to predict city service resolution speeds.</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">AWS S3</span>
+          
+          <span class="tech-badge">AWS Athena (SQL)</span>
+          
+          <span class="tech-badge">AWS SageMaker</span>
+          
+          <span class="tech-badge">Python (Scikit-Learn)</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Predicting whether a non-emergency service request will be resolved within a 3-day window to help city stakeholders identify operational bottlenecks.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I built a cloud-based data pipeline starting with data ingestion into S3. I used Athena to perform complex SQL aggregations for feature engineering. Finally, I compared local Scikit-Learn models with SageMaker&#39;s built-in Linear Learner algorithm to evaluate workflow efficiency and model performance.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>Achieved an 88% baseline accuracy. The project highlighted the challenges of class imbalance in city data and demonstrated a scalable approach to handling large-scale tabular datasets in the cloud.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/Brendanhhh/aws-nyc311-181211067" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+        </div>
+      </div>
+
+    </article>
+    
   </div>
 </section>
 
